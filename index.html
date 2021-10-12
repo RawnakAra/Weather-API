@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,24 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Weather API</title>
 </head>
+
 <body>
+    <section class="top-banner">
+    <div class="container">
+        <h1 class="heading">Weather App</h1>
+        <form action="">
+            <input type="text" placeholder="Search ..." autofocus>
+            <button type="submit">Search</button>
+            <span class="msg"></span>
+        </form>
+    </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
     <script src="/js/index.js"></script>
 </body>
+
 </html>
